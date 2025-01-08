@@ -52,7 +52,7 @@
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: left center, bottom right;
 }
 nav{
     display: flex;
@@ -90,13 +90,22 @@ nav li a{
 .banner-greet{
     font-size: 45px;
     font-weight: 600;
+   margin-bottom: 5px;
 }
 .banner-title{
     font-weight: bold;
     font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 .banner-pic{
     width: 584px;
+}
+.banner-desc{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #474747;
+    font-size: 18px;
 }
 
 /* main styles */
@@ -110,6 +119,7 @@ main{
     border-radius: 5px;
     padding: 130px 150px;
     text-align: center;
+    margin-top: 130px;
 }
 .about-items{
     display: flex;
@@ -117,3 +127,89 @@ main{
     gap: 50px;
 
 }
+
+/* skills styles */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    margin-top: 130px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.section-desc{
+    padding: 0px 116px 0px 116px;
+    margin-bottom: 50px;
+}
+
+/* cv styles */
+.cv{
+    margin-top: 130px;
+}
+
+.cv-container{
+    display: flex;
+    gap: 24px;
+    
+}
+.items-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+}
+.degree-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+}
+.varsity{
+    font-weight: 600;
+    font-size: 20px;
+    color: #474747;
+}
+.degree-details{
+    font-size: 16px;
+}
+.downloadn-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer styles */
+.footer{
+    margin-top: 115px;
+}
+.footer-container{
+    display: flex;
+    padding: 130px 230px;
+    gap: 120px;
+    
+    
+}
+.fc-title, .feedback{
+    font-weight: 700;
+    font-size: 35px;
+}
+.fc-desc{
+    font-size: 16px;
+    line-height: 28px;
+}
+.social-icon{
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 64px;
+  }
+  
